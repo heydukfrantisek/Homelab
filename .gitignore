@@ -1,0 +1,23 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+credentials/
+*.token
+
+# Local runtime
+.cache/
+.venv/
+__pycache__/
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
